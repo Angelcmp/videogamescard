@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO GAMES CARD</title>
+    <link rel="stylesheet" href="/../style.css">
+    <link rel="shortcut icon" href="../img/iconfav.png" type="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header_wwe2k24">
+        <nav class="container">
+            <div class="mainnav flex">
+                <div class="logo">
+                    <img class="navlogo" src="/../img/videogamelogo.png">
+                </div>
+                <div class="navlist">
+                    <ul class="flex">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/src/misionvision.html">Mision y Vision</a></li>
+                        <li><a href="/src/cards.html">Tarjetas</a></li>
+                        <li class="has-submenu">
+                            <a href="/src/games.html">Juegos<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de games-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/psn.html">PS5</a></li>
+                            <li><a href="/src/xbox.html">XBOX</a></li>
+                            <li><a href="/src/pc.html">STEAM</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="/src/gamescoming.html">Proximos Juegos</a></li>
+                        <li class="has-submenu">
+                            <a href="/">PC<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de pc-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/pc.html">PC</a></li>
+                            <li><a href="/">INDIE GAMES</a></li>
+                            <li><a href="/src/cardspc.html">TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">PSN<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de psn-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/psn.html">GAMES</a></li>
+                            <li><a href="/src/cardspsn.html">PSN TARJETAS</a></li>
+                            <li><a href="/src/cardspsn.html">PLAYSTATION PLUS</a></li>
+                        </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="/">XBOX<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- Subcategorias de xbox-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/xbox.html">JUEGOS</a></li>
+                            <li><a href="/src/cardsxbox.html">TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">NINTENDO<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- Subcategorias de nintendo-->
+                        <ul class="sub-menu">
+                            <li><a href="/">SWITCH JUEGOS</a></li>
+                            <li><a href="/src/cardsnint.html">ESHOP TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <ul class="flex">
+                            <li><i class="fa-solid fa-basket-shopping icon_shop"></i></li>
+                            <li><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="headercont container flex">
+        </div>
+
+    </header>
+        <!-- CARRITO DE COMPRA-->
+
+    <div class="shopping_cart" id="shopping_cart">
+        <h2>Carrito de Compras</h2>
+            <ul id="cart_items"></ul>
+                <div class="cart_totals">
+                    <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                    <p>ITBMS (7%): $<span id="tax">0.00</span></p>
+                    <p>Total: $<span id="total">0.00</span></p>
+                </div>
+            <div class="cart_buttons">
+                    <button id="checkout">Procesar Pago</button>
+                    <button id="close_cart">Cerrar</button>
+            </div>
+    </div>
+
+
+    <!-- Descripcion de la tarjeta y su compra-->
+
+    <div class="shop">
+        <div class="img_product">
+            <img id="product_image" src="/img/games/game19.jpg">
+        </div>
+        <div class="product_details">
+            <h1 id="product_title">WWE: 2K24</h1>
+            <h3 class="flex_platform">
+                <div class="plataforma">
+                    <i class="fa-solid fa-gamepad platform"></i>
+                    <a href="#">XBOX</a>
+                    <i class="fa-solid fa-check"></i>
+                    <a href="#">Descarga Digital</a>
+                </div>
+            </h3>
+            <h2><i class="fa-solid fa-tag"></i>$49.99</h2>
+            <label class="precio" for="price">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+            <select class="precio_games" id="price">
+                <option value="49">49.99$</option>
+            </select>
+            
+            <div class="btn_shop">
+                <button class="btn_shop_compra"><i class="fa-regular fa-heart"></i></button>
+                <button class="btn_shop_agrega"><i class="fa-solid fa-cart-shopping"></i> AGREGAR AL CARRITO</button>
+                <button class="btn_shop_paypal"><i class="fa-brands fa-paypal"></i>PayPal</button>
+            </div>
+            <div class="disponible">
+                <h3>Disponible al comprar</h3>
+                <div class="payment_card">
+                    <img src="/../img/paypal.png">
+                    <img src="/../img/nequi.png">
+                    <img src="/../img/visa.png">
+                    <img src="/../img/mastercard.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container acerca">
+        <div class="acerca_text">
+            <h2>Descripcion</h2>
+            <p>40 AÑOS DE WRESTLEMANIA WrestleMania es el mayor evento del entretenimiento deportivo, donde las Superstars se convierten en Leyendas de la WWE. Experimenta una apasionante narración de los mejores momentos de WrestleMania en el Escaparate de los Inmortales de 2K, donde podrás revivir una colección de algunos de los combates más inolvidables y que definen una carrera.</p>
+            </div>
+        <div class="acerca_text">
+            <h2>Acerca del Juego</h2>
+            <p>40 AÑOS DE WRESTLEMANIA
+
+                WrestleMania es el mayor evento del entretenimiento deportivo, donde las Superstars se convierten en Leyendas de la WWE. Experimenta una apasionante narración de los mejores momentos de WrestleMania en el Escaparate de los Inmortales de 2K, donde podrás revivir una colección de algunos de los combates más inolvidables y que definen una carrera.
+                
+                UN PLANTEL ICÓNICO
+                
+                WWE 2K24 cuenta con un plantel repleto de estrellas que incluye a leyendas de la WWE como "Stone Cold" Steve Austin, Undertaker y André el Gigante, junto a Superstars actuales de la WWE como "The American Nightmare" Cody Rhodes, John Cena, Rhea Ripley y Roman Reigns, cuyas entradas y movimientos característicos se ven realzados por gráficos ultrarrealistas.
+                
+                NUEVOS TIPOS DE COMBATE
+                
+                Desde Combates de Árbitro Invitado hasta combates de Ataúd, Gaunlet y Ambulancia, WWE 2K24 ofrece una gran variedad de nuevos tipos de enfrentamientos, incluyendo la posibilidad de jugar con varias Superstars en Backstage Brawl.
+                
+                PRUEBA TU DESTREZA EN Mi LEYENDA
+                
+                Da rienda suelta a tu talento y conviértete en el campeón indiscutible en Mi LEYENDA, con dos emocionantes carreras y argumentos originales que narran tu ascenso al estrellato de la WWE en las divisiones masculina y femenina.
+                
+                CONSTRUYE TU FACCIÓN
+                
+                Reúne a tus Superstars y leyendas favoritas de la WWE en Mi FACCIÓN. Adquiere cartas, construye una facción dominante, compite en el modo multijugador online y en el nuevo modo rápido. Además, gana emocionantes recompensas promocionales y de rango final a medida que asciendes en la nueva tabla de clasificación estacional.
+                
+                CONTROLA EL UNIVERSO WWE
+                
+                Desarrolla feudos, shows semanales y mucho más en el modo Universo, el sandbox definitivo de WWE 2K24, con acciones de rivalidad ampliadas, escenas totalmente nuevas y compatibilidad con combates de doble título.</p>
+        </div>
+    </div>
+
+    <div class="container acceso">
+        <h2>Disponible</h2>
+    </div>
+
+    <div class="container visual">
+        <h2>Videos</h2>
+        <iframe width="1200" height="725" src="https://www.youtube.com/embed/GpuRjErh-e0?si=J2AeiDz4LlM67ZWO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="container gallery">
+        <div class="gallery_one">
+            <img class="gallery_one_col-1 gallery_one_row-2" src="/../img/ugames/wwe1.jpg">
+            <img src="/../img/ugames/wwe2.jpg">
+            <img src="/../img/ugames/wwe3.jpg">
+            <img src="/../img/ugames/wwe4.jpg">
+            <img src="/../img/ugames/wwe5.jpg">
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <section class="footersec container flex">
+            <div class="footerh2 flex">
+                <h2>NOSOTROS</h2>
+            </div>
+            <div class="flex footermenu">
+                <div class="faboutus">
+                    <p>Nos enorgullece ser el destino definitivo para encontrar el regalo perfecto en forma de tarjetas de regalo. Con una pasión por hacer que el arte de regalar sea fácil y emocionante, nos esforzamos por ofrecer una experiencia de compra sin igual.
+                    </p>
+                    <div class="flex">
+                        <ul class="flex">
+                            <li><a href="/index.html"><i class="fa-solid fa-caret-right"></i>Inicio</a></li>
+                            <li><a href="/src/cards.html"><i class="fa-solid fa-caret-right"></i>Tarjetas de Regalo</a></li>
+                            <li><a href="/src/games.html"><i class="fa-solid fa-caret-right"></i>Juegos</a></li>
+                            <li><a href="/src/games.html"><i class="fa-solid fa-caret-right"></i>Proximos Juegos</a></li>
+                        </ul>
+                        <ul class="flex">
+                            <li><a href="/src/pc.html"><i class="fa-solid fa-caret-right"></i>PC</a></li>
+                            <li><a href="/src/psn.html"><i class="fa-solid fa-caret-right"></i>PSN</a></li>
+                            <li><a href="/src/xbox.html"><i class="fa-solid fa-caret-right"></i>XBOX</a></li>
+                            <li><a href="/src/cardsnint.html"><i class="fa-solid fa-caret-right"></i>NINTENDO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyrightsec flex">
+            <div class="copyright container flex">
+                <div class="flex">
+                    <p>Copyright &copy; 2024 - Todos los derechos reservados.</p>
+                </div>
+                <ul class="flex">
+                    <li><a href="/index.html" class="factive">Inicio</a></li>
+                    <li><a href="/">Contacto</a></li>
+                    <li><a href="/">Terminos y Condiciones</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="/carrito.js"></script>
+</body>
+
+</html>

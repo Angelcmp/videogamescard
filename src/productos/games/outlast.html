@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO GAMES CARD</title>
+    <link rel="stylesheet" href="/../style.css">
+    <link rel="shortcut icon" href="../img/iconfav.png" type="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header_outlast">
+        <nav class="container">
+            <div class="mainnav flex">
+                <div class="logo">
+                    <img class="navlogo" src="/../img/videogamelogo.png">
+                </div>
+                <div class="navlist">
+                    <ul class="flex">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/src/misionvision.html">Mision y Vision</a></li>
+                        <li><a href="/src/cards.html">Tarjetas</a></li>
+                        <li class="has-submenu">
+                            <a href="/src/games.html">Juegos<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de games-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/psn.html">PS5</a></li>
+                            <li><a href="/src/xbox.html">XBOX</a></li>
+                            <li><a href="/src/pc.html">STEAM</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="/src/gamescoming.html">Proximos Juegos</a></li>
+                        <li class="has-submenu">
+                            <a href="/">PC<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de pc-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/pc.html">PC</a></li>
+                            <li><a href="/">INDIE GAMES</a></li>
+                            <li><a href="/src/cardspc.html">TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">PSN<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- Subcategorias de psn-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/psn.html">GAMES</a></li>
+                            <li><a href="/src/cardspsn.html">PSN TARJETAS</a></li>
+                            <li><a href="/src/cardspsn.html">PLAYSTATION PLUS</a></li>
+                        </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="/">XBOX<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- Subcategorias de xbox-->
+                        <ul class="sub-menu">
+                            <li><a href="/src/xbox.html">JUEGOS</a></li>
+                            <li><a href="/src/cardsxbox.html">TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">NINTENDO<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- Subcategorias de nintendo-->
+                        <ul class="sub-menu">
+                            <li><a href="/">SWITCH JUEGOS</a></li>
+                            <li><a href="/src/cardsnint.html">ESHOP TARJETAS</a></li>
+                        </ul>
+                        </li>
+                        <ul class="flex">
+                            <li><i class="fa-solid fa-basket-shopping icon_shop"></i></li>
+                            <li><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="headercont container flex">
+        </div>
+
+    </header>
+        <!-- CARRITO DE COMPRA-->
+
+    <div class="shopping_cart" id="shopping_cart">
+        <h2>Carrito de Compras</h2>
+            <ul id="cart_items"></ul>
+                <div class="cart_totals">
+                    <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                    <p>ITBMS (7%): $<span id="tax">0.00</span></p>
+                    <p>Total: $<span id="total">0.00</span></p>
+                </div>
+            <div class="cart_buttons">
+                    <button id="checkout">Procesar Pago</button>
+                    <button id="close_cart">Cerrar</button>
+            </div>
+    </div>
+
+
+    <!-- Descripcion de la tarjeta y su compra-->
+
+    <div class="shop">
+        <div class="img_product">
+            <img id="product_image" src="/img/games/game20.jpg">
+        </div>
+        <div class="product_details">
+            <h1 id="product_title">OUTLAST</h1>
+            <h3 class="flex_platform">
+                <div class="plataforma">
+                    <i class="fa-solid fa-gamepad platform"></i>
+                    <a href="#">XBOX - PC</a>
+                    <i class="fa-solid fa-check"></i>
+                    <a href="#">Descarga Digital</a>
+                </div>
+            </h3>
+            <h2><i class="fa-solid fa-tag"></i>$4.99</h2>
+            <label class="precio" for="price">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+            <select class="precio_games" id="price">
+                <option value="4">4.99$</option>
+            </select>
+            
+            <div class="btn_shop">
+                <button class="btn_shop_compra"><i class="fa-regular fa-heart"></i></button>
+                <button class="btn_shop_agrega"><i class="fa-solid fa-cart-shopping"></i> AGREGAR AL CARRITO</button>
+                <button class="btn_shop_paypal"><i class="fa-brands fa-paypal"></i>PayPal</button>
+            </div>
+            <div class="disponible">
+                <h3>Disponible al comprar</h3>
+                <div class="payment_card">
+                    <img src="/../img/paypal.png">
+                    <img src="/../img/nequi.png">
+                    <img src="/../img/visa.png">
+                    <img src="/../img/mastercard.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container acerca">
+        <div class="acerca_text">
+            <h2>Descripcion</h2>
+            <p>Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare. Synopsis: In the remote mountains of Colorado, horrors wait inside Mount Massive Asylum. A long-abandoned home for the mentally ill, recently re-opened by the “research and charity.</p>
+            </div>
+        <div class="acerca_text">
+            <h2>Acerca del Juego</h2>
+            <p>Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare.
+
+                Synopsis:
+                
+                In the remote mountains of Colorado, horrors wait inside Mount Massive Asylum. A long-abandoned home for the mentally ill, recently re-opened by the “research and charity” branch of the transnational Murkoff Corporation, the asylum has been operating in strict secrecy… until now.
+                
+                Acting on a tip from an anonymous source, independent journalist Miles Upshur breaks into the facility, and what he discovers walks a terrifying line between science and religion, nature and something else entirely. Once inside, his only hope of escape lies with the terrible truth at the heart of Mount Massive.
+                
+                Outlast is a true survival horror experience which aims to show that the most terrifying monsters of all come from the human mind.
+                
+                Features:
+                
+                True Survival Horror Experience: You are no fighter - if you want to survive the horrors of the asylum, your only chance is to run... or hide
+                Immersive Graphics: AAA-quality graphics give players a detailed, terrifying world to explore
+                Hide and Sneak: Stealth-based gameplay, with parkour-inspired platforming elements
+                Unpredictable Enemies: Players cannot know when - and from where - one of the asylum’s terrifying inhabitants will finally catch up to them
+                Real Horror: Outlast’s setting and characters are inspired by real asylums and cases of criminal insanity</p>
+        </div>
+    </div>
+
+    <div class="container acceso">
+        <h2>Disponible</h2>
+    </div>
+
+    <div class="container visual">
+        <h2>Videos</h2>
+        <iframe width="1200" height="725" src="https://www.youtube.com/embed/uKA-IA4locM?si=XG0zqi6hTKiF7ePy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="container gallery">
+        <div class="gallery_one">
+            <img class="gallery_one_col-1 gallery_one_row-2" src="/../img/ugames/out.jpg">
+            <img src="/../img/ugames/out1.jpg">
+            <img src="/../img/ugames/out2.jpg">
+            <img src="/../img/ugames/out4.jpg">
+            <img src="/../img/ugames/out5.jpg">
+        </div>
+    </div>
+
+    <div class="featuredgames container config">
+        <h2><span>Configuracion</span></h2>
+    </div>
+    <div class="container config">
+        <div class="acerca_text">
+            <h2>Requisitos Minimos</h2>
+            <h3>Requiere un procesador y un sistema operativo de 64 bits</h3>
+            <ul>
+                <li>SO: Windows 10</li>
+                <li>Procesador: 2.2 GHz Dual Core CPU</li>
+                <li>Memoria: 2 GB de RAM</li>
+                <li>Gráficos: 512 MB NVIDIA GeForce 9800GTX / ATI Radeon HD 3xxx series</li>
+                <li>DirectX: Versión 9</li>
+                <li>Almacenamiento: 5 GB de espacio disponible</li>
+                <li>Tarjeta de sonido: Windows Compatible Audio Device</li>
+            </ul>
+        </div>
+        <div class="acerca_text">
+            <h2>Requisitos Recomendados</h2>
+            <h3>Requiere un procesador y un sistema operativo de 64 bits</h3>
+            <ul>
+                <li>SO: Windows 10/11</li>
+                <li>Procesador: 2.8 GHz Quad Core CPU</li>
+                <li>Memoria: 3 GB de RAM</li>
+                <li>Gráficos: 1GB NVIDIA GTX 460 / ATI Radeon HD 6850 or better</li>
+                <li>DirectX: Versión 9</li>
+                <li>Almacenamiento: 5 GB de espacio disponible</li>
+                <li>Tarjeta de sonido: Windows Compatible Audio Device</li>
+            </ul>
+        </div>
+        
+    </div>
+    
+
+    <footer>
+        <section class="footersec container flex">
+            <div class="footerh2 flex">
+                <h2>NOSOTROS</h2>
+            </div>
+            <div class="flex footermenu">
+                <div class="faboutus">
+                    <p>Nos enorgullece ser el destino definitivo para encontrar el regalo perfecto en forma de tarjetas de regalo. Con una pasión por hacer que el arte de regalar sea fácil y emocionante, nos esforzamos por ofrecer una experiencia de compra sin igual.
+                    </p>
+                    <div class="flex">
+                        <ul class="flex">
+                            <li><a href="/index.html"><i class="fa-solid fa-caret-right"></i>Inicio</a></li>
+                            <li><a href="/src/cards.html"><i class="fa-solid fa-caret-right"></i>Tarjetas de Regalo</a></li>
+                            <li><a href="/src/games.html"><i class="fa-solid fa-caret-right"></i>Juegos</a></li>
+                            <li><a href="/src/games.html"><i class="fa-solid fa-caret-right"></i>Proximos Juegos</a></li>
+                        </ul>
+                        <ul class="flex">
+                            <li><a href="/src/pc.html"><i class="fa-solid fa-caret-right"></i>PC</a></li>
+                            <li><a href="/src/psn.html"><i class="fa-solid fa-caret-right"></i>PSN</a></li>
+                            <li><a href="/src/xbox.html"><i class="fa-solid fa-caret-right"></i>XBOX</a></li>
+                            <li><a href="/src/cardsnint.html"><i class="fa-solid fa-caret-right"></i>NINTENDO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyrightsec flex">
+            <div class="copyright container flex">
+                <div class="flex">
+                    <p>Copyright &copy; 2024 - Todos los derechos reservados.</p>
+                </div>
+                <ul class="flex">
+                    <li><a href="/index.html" class="factive">Inicio</a></li>
+                    <li><a href="/">Contacto</a></li>
+                    <li><a href="/">Terminos y Condiciones</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="/carrito.js"></script>
+</body>
+
+</html>

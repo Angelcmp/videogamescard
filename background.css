@@ -1,0 +1,34 @@
+/* Todos los backgronuds de los videojuegos y tarjertas */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #000000;
+    opacity: 0.5;
+}
+
+.header_psn{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: url(img/psn/psn4.jpg);
+}
+
+.header_xbox{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: url(img/xbox/fondoxbox.jpg);
+}

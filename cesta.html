@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO GAMES CARD - Desbloquea tu diversión!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/iconfav.png" type="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+
+
+        <div class="container flex">
+            <div class="cesta_logo">
+                <div class="progreso">
+                    <img src="img/logo.png">
+                    <span class="step active">
+                        <span class="numero">1</span>
+                        <span class="texto">Canasta</span>
+                        <span class="spacer"></span>
+                    </span>
+                    <span class="step">
+                        <span class="numero">2</span>
+                        <span class="texto">Pago</span>
+                        <span class="spacer"></span>
+                    </span>
+                    <span class="step">
+                        <span class="numero">3</span>
+                        <span class="texto">Activacion del Juego</span>
+                        <span class="spacer"></span>
+                    </span>
+                    <img src="img/logo.png">
+                    <div class="secure">
+                        <span class="secured">Pago seguro</span>
+                        <span class="ssl">256-bit SSL Secured</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Canasta</h1>
+            <div id="cart_details">
+                <ul id="cart_items"></ul>
+            </div>
+            <div id="cart_totals">
+                <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                <p>ITBMS (7%): $<span id="tax">0.00</span></p>
+                <p>Total: $<span id="total">0.00</span></p>
+            </div>
+            <div class="btn_canasta">
+                <button id="proceed_payment">Proceder con el Pago</button>
+            </div>
+        </div>
+
+
+
+
+    <script src="carrito.js"></script>
+    <script src="cesta.js"></script>
+</body>
+
+</html>
